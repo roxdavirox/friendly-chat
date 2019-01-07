@@ -1,0 +1,17 @@
+[debug] [2019-01-07T16:31:57.344Z] ----------------------------------------------------------------------
+[debug] [2019-01-07T16:31:57.347Z] Command:       /usr/local/bin/node /usr/local/bin/firebase use --add
+[debug] [2019-01-07T16:31:57.348Z] CLI Version:   6.2.2
+[debug] [2019-01-07T16:31:57.348Z] Platform:      linux
+[debug] [2019-01-07T16:31:57.348Z] Node Version:  v9.10.0
+[debug] [2019-01-07T16:31:57.348Z] Time:          Mon Jan 07 2019 14:31:57 GMT-0200 (-02)
+[debug] [2019-01-07T16:31:57.348Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-01-07T16:31:57.376Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-01-07T16:31:57.376Z] > authorizing via signed-in user
+[debug] [2019-01-07T16:31:57.379Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-01-07T16:31:57.379Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-01-07T16:31:57.607Z] <<< HTTP RESPONSE 200
+[debug] [2019-01-07T16:31:57.656Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+ 
+[debug] [2019-01-07T16:31:58.815Z] <<< HTTP RESPONSE 200
