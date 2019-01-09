@@ -1,0 +1,12 @@
+curl -H "Content-Type: application/json" \
+     -H "Authorization: key=AAAAYPk-26g:APA91bHlolBdMjozOYURI3-e0IveQSynxjxlluoXPEWHlN88N6pfFLslYqwmoWfzTGPoLGGxddnQz-ai8Lv4H2l8Jzh5RdIlbb7hBu7Op4SIEVCz4LbYA05RMJdT7VKTt1EpoU67hM5t" \
+     -d '{
+           "notification": {
+             "title": "New chat message!",
+             "body": "There is a new message in FriendlyChat",
+             "icon": "/images/profile_placeholder.png",
+             "click_action": "http://localhost:5005"
+           },
+           "to": "fxkseUSQE-g:APA91bFlpF5QVOfTWrugrHcPtS_RFWonp1W907chEps5jGshCBx81D0zg5t8RGq6VcVz_yBPx5oX5E1_8PKSuyhZgGidV-XMt5RP4YM-TrR4UtxbTlV0xSX-sPR2-GYtLgEwvYpzDwJS"
+         }' \
+     https://fcm.googleapis.com/fcm/send
